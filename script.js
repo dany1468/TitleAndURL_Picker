@@ -16,7 +16,7 @@ window.addEventListener('load',()=>{
     document.querySelector('button.ttl').addEventListener('click',()=>{
         txtBox.value = Data.Title;
     });
-    document.querySelector('button.url').addEventListener('click',()=>{
+    document.querySelector('button.scrap').addEventListener('click',()=>{
         txtBox.value = `[${Data.Title} ${Data.URL}]`;
     });
     document.querySelector('button.bmark').addEventListener('click',()=>{
