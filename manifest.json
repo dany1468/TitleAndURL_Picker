@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Title & URL Picker",
-  "version": "1.1",
+  "name": "Title & URL Picker (/w ScrapBox)",
+  "version": "1.2",
   "description": "Get Title and URL of a Page",
   "icons": {
     "128": "icon128.png"

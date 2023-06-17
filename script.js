@@ -17,7 +17,7 @@ window.addEventListener('load',()=>{
         txtBox.value = Data.Title;
     });
     document.querySelector('button.url').addEventListener('click',()=>{
-        txtBox.value = Data.URL;
+        txtBox.value = `[${Data.Title} ${Data.URL}]`;
     });
     document.querySelector('button.bmark').addEventListener('click',()=>{
         txtBox.value = `[${Data.Title}](${Data.URL})`;
